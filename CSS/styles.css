@@ -66,17 +66,6 @@ p{
   width: 100%;
 }
 
-.top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 50px;
-}
-
-.bottom-cloud {
-  position: absolute;
-  left: 300px;
-  bottom: 300px;
-}
 
 .profile {}
 
@@ -94,23 +83,35 @@ p{
 
 .skill-row {
   width: 50%;
-  margin: 100px auto 100px auto;
+  margin: 150px auto 150px auto;
   text-align: left;
   line-height: 2;
 }
+
 
 .code-image {
   width: 25%;
   float: left;
   margin-right: 30px;
 }
-
-.game-image {
+.unity-image{
   width: 25%;
   float: right;
   margin-left: 30px;
 }
 
+.game-image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.support-image{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+
+}
 .copyright {
   color: #EAF6F6;
   padding-top: 10px;
@@ -156,4 +157,5 @@ p{
 .footer-link{
   color: #393e46;
   font-family: 'Montserrat',serif;
+  padding-right: 20px;
 }
